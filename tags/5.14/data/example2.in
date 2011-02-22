@@ -1,0 +1,117 @@
+NT: Run duration:
+1000
+DT: Time step size (yrs):
+100
+DTMIN: Minimum sub-time step size (yrs):
+100
+WRTINT: Output interval (time steps):
+100
+DX: Grid cell spacing (m):
+40.0
+OPTTRANS: Fluvial function type:
+3
+DOWNWT: Downstream weighting factor (between zero and ~1/2):
+0.330
+KF: Fluvial sediment transport coefficient Kf:
+0.0
+KT: shear stress coefficient Kt:
+1
+MF: Discharge exponent Mf for fluvial sediment transport:
+1.5
+NF: Slope exponent Nf for fluvial sediment transport:
+2
+PF: Excess shear stress exponent
+1
+TAUC: Threshold for sediment motion
+0
+MB: Discharge exponent Mb for bedrock channel erosion:
+0.5
+NB: Slope exponent Nb for bedrock channel erosion:
+1.0
+KC: Channel width constant ((s/m)^1/2)
+10
+KDP: Channel depth constant
+0
+MDP: Channel depth exponent (depth = KDP * AREA^MDP)
+0.50
+OPTDIFF: Diffusion option (0=apply to rock or sed; 1=sed only)
+0
+KD: Diffusivity coefficient Kd (m^2/yr):
+0.01
+MW: Weathering rate decay constant (1/m):
+1.0
+CHANA: Weathering threshold area
+100000000
+PPT: Effective precipitation rate (m/yr, or m/s for MPM):
+1
+PMA: Mean annual flow per unit area (m/s for MPM)
+1
+OPTP: Precip option
+0
+OPTSAT: Option for saturation overland flow
+0
+C0: Initial sediment cover thickness (m):
+0.0
+OPTSLP: Bother with computing slope collapse? (0=no):
+1
+SCR: threshold slope for regolith
+0.84
+OPTALS: option for pore-pressure sliding
+0
+MODE: Run in which mode? (0=Catchment scale mode, 1=Large scale mode):
+0
+KCI:        chan1	
+        1
+MCI:        chan1	
+	1
+NCI:        chan1	
+        0
+TCI:        chan1	
+	0
+ACHAN: Area of an active channel within a cell:
+1600.0
+UPDUR: Duration of uplift (time steps):
+1000000
+UPRT: 	Uplift rate
+	0.001
+	Uplift type
+	plateau
+NGRAB:	Number of half grabens
+	0
+OPTFLX: Is flexural isostasy active? (0=no)
+0
+East boundary type:
+no flux
+POND: Is ponding and overflow algorithm active? (0=no):
+1
+OPTBND: Use an irregular boundary? (0=no):
+0
+NPT: No. input sources
+0
+OPTMS: prevent bedrock channels from etching below base level?
+0
+Stratigraphy file:
+uplift1.strat
+Base elevation file:
+flat64x128.base
+Name for run output:
+example
+OPTRST: Is this a restart of a previous run? (0=no):
+0
+Name:
+uplift1.restart
+Version 5.12 10/97 with modifications 1-6
+	Mon Apr  5 14:51:40 1999
+
+Version 5.12 10/97 with modifications 1-6
+	Mon Apr  5 14:56:31 1999
+
+Version 5.12 10/97 with modifications 1-6
+	Mon Apr  5 14:58:42 1999
+
+Version 5.12 10/97 with modifications 1-6
+	Mon Apr  5 15:00:04 1999
+
+Version 5.12 10/97 with modifications 1-6
+	Thu Apr 29 10:03:01 1999
+
